@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        >
+        <EditText
+            android:id="@+id/urlpath"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http://ren.itingwang.com:8002/uplodfile/article/20160118/gas_safe_information.mp4"
+            />
+        <Button
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放网络视屏"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/convertPCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放本地视屏"
+        />
+    <Button
+        android:id="@+id/makePCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转换PCM"
+        />
+    <Button
+        android:id="@+id/playPCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放PCM"
+        />
+</LinearLayout>

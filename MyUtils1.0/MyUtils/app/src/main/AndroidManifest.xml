@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wjs.wenyan.myutils">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".demo.MainActivity"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.ShakeListenerActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.SingleButtonActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.ScrollSingleButtonActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.SingleProgressActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.ToggleButtonActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.CloseBebugMode"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.LimitInputNumberEditTextActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.HasTextProgressbarActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.ScrollPaginationActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.ProgressWheelActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.wjs.test.activity" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HttpActivity">
+
+        </activity>
+    </application>
+
+</manifest>

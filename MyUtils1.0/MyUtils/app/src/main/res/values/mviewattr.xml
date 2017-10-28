@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PersonAttr">
+        <attr name="colorSet" format="string" />
+        <attr name="calcType">
+            <enum name="px" value="1"></enum>
+            <enum name="dp" value="2"></enum>
+        </attr>
+        <attr name="drawingheight" format="integer"></attr>
+    </declare-styleable>
+</resources>

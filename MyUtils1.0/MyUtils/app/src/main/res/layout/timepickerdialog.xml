@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f00"
+    >
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/timepickerdialogback"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y168"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#33b5e5"
+                android:text="请选择送气时间"
+                android:layout_marginTop="@dimen/y6"
+                android:layout_marginLeft="@dimen/x30"
+                />
+        </LinearLayout>
+		<ImageView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/timepackertitle"
+		    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/timefrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="80dp"
+                android:paddingRight="80dp"
+                 >
+
+                <NumberPicker
+                    android:id="@+id/Htime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":" />
+
+                <NumberPicker
+                    android:id="@+id/Mtime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+		<ImageView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/timepickerbf"
+		    />
+        <LinearLayout
+            android:id="@+id/callButton_wjs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y144"
+            android:orientation="vertical"
+            android:gravity="center"
+             >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

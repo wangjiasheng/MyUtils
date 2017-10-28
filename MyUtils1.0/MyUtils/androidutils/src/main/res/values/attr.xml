@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SingleButton">
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ToggleButton">
+        <attr name="selecticon" format="reference" />
+        <attr name="unselecticon" format="reference" />
+        <attr name="singlebuttonid" format="integer"></attr>
+    </declare-styleable>
+        <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+</resources>

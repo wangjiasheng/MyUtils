@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'airplay'
+            keyPassword '812330500'
+            storeFile file('app.keystore')
+            //MD5: 57:59:07:DC:B7:25:58:0A:1F:EE:04:8B:4B:B0:51:90
+            //SHA1: B1:6C:8A:07:E3:7B:0B:3A:FD:02:A2:A8:B4:63:79:CA:46:6A:76:1C
+            //SHA256: EA:92:B1:38:AC:6F:34:1F:F1:FE:82:68:42:44:22:D5:DD:0C:87:D1:4E:9D:A2:09:39:3B:D6:21:F0:9B:DF:C0
+            storePassword '812330500'
+        }
+        debug {
+            keyAlias 'airplay'
+            keyPassword '812330500'
+            storeFile file('app.keystore')
+            storePassword '812330500'
+        }
+        release {
+            keyAlias 'airplay'
+            keyPassword '812330500'
+            storeFile file('app.keystore')
+            storePassword '812330500'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile files('libs/alipay-sdk-java20160525120056.jar')
+    compile files('libs/commons-logging-1.1.1.jar')
+    compile files('libs/commons-logging-1.1.1-sources.jar')
+    compile files('libs/alipay-sdk-java20160525120056-source.jar')
+}

@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    signingConfigs {
+        config {
+            keyAlias 'androiddebugkey'
+            keyPassword '812330500'
+            storeFile file('WJSAppKey.keystore')
+            storePassword '812330500'
+        }
+        debug {
+            keyAlias 'androiddebugkey'
+            keyPassword '812330500'
+            storeFile file('WJSAppKey.keystore')
+            storePassword '812330500'
+        }
+        release {
+            keyAlias 'androiddebugkey'
+            keyPassword '812330500'
+            storeFile file('WJSAppKey.keystore')
+            storePassword '812330500'
+        }
+    }
+    defaultConfig {
+        applicationId "com.wenyan.totravelcitywest"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile project(':tencent')
+    compile project(':weichat')
+    compile project(':sina')
+}

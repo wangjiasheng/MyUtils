@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wanyan.com.newtooglebutton.MainActivity"
+    android:background="#0f0"
+    >
+
+    <wanyan.com.newtooglebutton.newToogleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        >
+        <wanyan.com.newtooglebutton.mButtonImpl
+            android:id="@+id/m_renqi"
+            android:layout_width="90dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人气"
+                android:textColor="#252525"
+                android:textSize="@dimen/f37_49" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x18"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/select0"
+                    android:layout_width="@dimen/x17"
+                    android:layout_height="@dimen/y12"
+                    android:src="@mipmap/qian_top" />
+
+                <ImageView
+                    android:id="@+id/unselect0"
+                    android:layout_width="@dimen/x17"
+                    android:layout_height="@dimen/y12"
+                    android:layout_marginTop="@dimen/y7"
+                    android:src="@mipmap/sheng_bottom" />
+            </LinearLayout>
+        </wanyan.com.newtooglebutton.mButtonImpl>
+
+        <wanyan.com.newtooglebutton.mButtonImpl
+            android:id="@+id/m_riqi"
+            android:layout_width="90dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日期"
+                android:textColor="#252525"
+                android:textSize="@dimen/f37_49" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x18"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/select1"
+                    android:layout_width="@dimen/x17"
+                    android:layout_height="@dimen/y12"
+                    android:src="@mipmap/qian_top" />
+
+                <ImageView
+                    android:id="@+id/unselect1"
+                    android:layout_width="@dimen/x17"
+                    android:layout_height="@dimen/y12"
+                    android:layout_marginTop="@dimen/y7"
+                    android:src="@mipmap/sheng_bottom" />
+            </LinearLayout>
+        </wanyan.com.newtooglebutton.mButtonImpl>
+
+        <wanyan.com.newtooglebutton.mButtonImpl
+            android:id="@+id/m_jiage"
+            android:layout_width="90dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="价格"
+                android:textColor="#252525"
+                android:textSize="@dimen/f37_49" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x18"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/select2"
+                    android:layout_width="@dimen/x17"
+                    android:layout_height="@dimen/y12"
+                    android:src="@mipmap/qian_top" />
+
+                <ImageView
+                    android:id="@+id/unselect2"
+                    android:layout_width="@dimen/x17"
+                    android:layout_height="@dimen/y12"
+                    android:layout_marginTop="@dimen/y7"
+                    android:src="@mipmap/sheng_bottom" />
+            </LinearLayout>
+        </wanyan.com.newtooglebutton.mButtonImpl>
+        <wanyan.com.newtooglebutton.mButtonImpl2
+            android:id="@+id/m_dengji"
+            android:layout_width="90dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="等级"
+                android:textColor="#252525"
+                android:textSize="@dimen/f37_49" />
+
+            <ImageView
+                android:id="@+id/dengji"
+                android:layout_width="@dimen/x23"
+                android:layout_height="@dimen/y26"
+                android:layout_marginLeft="@dimen/x17"
+                android:src="@mipmap/function_bottom" />
+        </wanyan.com.newtooglebutton.mButtonImpl2>
+    </wanyan.com.newtooglebutton.newToogleButton>
+</RelativeLayout>
