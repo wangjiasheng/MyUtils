@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:orientation="vertical"
+
+              android:layout_width="fill_parent"
+
+              android:layout_height="fill_parent"
+
+              android:gravity="center"
+
+              android:background="#ffffff">
+
+    <TextView
+
+            android:id="@+id/myTextView"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="请摇晃手机"
+
+            android:textSize="30dp"
+
+            android:textColor="#000000"
+
+            android:gravity="center"
+
+            />
+
+</LinearLayout>

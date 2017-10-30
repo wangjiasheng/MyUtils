@@ -1,0 +1,1 @@
+include ':app', ':BD_Map', ':BD_Statistics', ':JPause'

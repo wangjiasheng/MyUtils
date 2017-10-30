@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f21_6">21.6px</dimen>
+    <dimen name="f25_93">25.93px</dimen>
+    <dimen name="f28_84">28.84px</dimen>
+    <dimen name="f28_86">28.86px</dimen>
+    <dimen name="f30">30px</dimen>
+    <dimen name="f31_69">31.69px</dimen>
+    <dimen name="f31_73">31.73px</dimen>
+    <dimen name="f31_75">31.75px</dimen>
+    <dimen name="f32_39">31.75px</dimen>
+    <dimen name="f34_56">34.56px</dimen>
+    <dimen name="f34_61">34.61px</dimen>
+    <dimen name="f36">36px</dimen>
+    <dimen name="f37_49">37.49px</dimen>
+    <dimen name="f37_52">37.52px</dimen>
+    <dimen name="f39">39px</dimen>
+    <dimen name="f40_33">40.33px</dimen>
+    <dimen name="f40_38">40.38px</dimen>
+    <dimen name="f40_41">40.41px</dimen>
+    <dimen name="f42">42px</dimen>
+    <dimen name="f43_26">43.26px</dimen>
+    <dimen name="f43_68">43.68px</dimen>
+    <dimen name="f46_15">46.15px</dimen>
+    <dimen name="f48">48px</dimen>
+    <dimen name="f51">51px</dimen>
+    <dimen name="f54">54px</dimen>
+</resources>

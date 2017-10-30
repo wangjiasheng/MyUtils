@@ -1,0 +1,1 @@
+javah -verbose -jni -classpath app/src/main/java -d app/src/main/jni wjs.player.control.MediaController

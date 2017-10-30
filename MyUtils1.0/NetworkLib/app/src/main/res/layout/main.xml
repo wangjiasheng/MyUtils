@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/downloadUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://dl.google.com/android/repository/android-ndk-r12b-windows-x86_64.zip"
+        />
+    <EditText
+        android:id="@+id/downloadFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mysql-5.7.14-winx64.zip"
+        />
+    <EditText
+        android:id="@+id/downloadThreadNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        />
+    <TextView
+        android:id="@+id/progressMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/downloadBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载"
+        />
+    <ProgressBar
+        android:id="@+id/downloadProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
